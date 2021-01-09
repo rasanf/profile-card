@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background: #19a1ad;
+  color: #292a3c;
+  font-family: "Kumb Sans", sans-serif;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: -65% 205%, 120% -195%;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 10px 190px 15px rgba(68, 68, 68, 0.2);
+  height: 35%;
+}
+
+h1,
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* Card */
+.profile-card {
+  border-radius: 15px 15px 0 0;
+}
+
+.bg-card img {
+  background: #fff;
+  display: block;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Profile */
+.avatar img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  background: white;
+  padding-top: 70px;
+}
+
+.age {
+  color: #6e6d72;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.location {
+  color: #6e6d72;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  padding: 8px 0 25px;
+}
+
+/* Stats */
+.dados {
+  background: white;
+  border-top: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  border-radius: 0 0 15px 15px;
+}
+
+.dados p {
+  color: #6e6d72;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  padding-top: 5px;
+}
+
+/* Footer */
+.footer {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #292a3c;
+  text-decoration: none;
+}
